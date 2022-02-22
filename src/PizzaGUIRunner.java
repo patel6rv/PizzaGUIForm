@@ -56,18 +56,13 @@ public class PizzaGUIRunner extends JFrame
         subMain = new JPanel();
         subMain.setLayout(new GridLayout(1, 2));
 
-        //createRadioPanel();
         createCheckPanel();
-        //mainPnl.add(radioPnl);
         mainPnl.add(checkPnl);
 
-        //createCheckPanel();
         createRadioPanel();
-        //mainPnl.add(checkPnl, BorderLayout.WEST);
         subMain.add(radioPnl, BorderLayout.WEST);
 
         createComboPanel();
-        //mainPnl.add(comboPnl, BorderLayout.EAST);
         subMain.add(comboPnl, BorderLayout.EAST);
         mainPnl.add(subMain, BorderLayout.CENTER);
 
